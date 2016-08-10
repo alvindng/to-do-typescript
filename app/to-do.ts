@@ -28,6 +28,7 @@ class HomeTask extends Task {
 class WorkTask extends Task {
   constructor(public dueDate: Date, public description: string, public priority: string, public assignedTo: IPerson){
     super(description, priority, assignedTo);
+
   }
 }
 
